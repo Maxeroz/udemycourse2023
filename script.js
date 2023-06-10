@@ -56,7 +56,7 @@ const birthYear = 1991;
 
 var job = "programmer";
 job = "teacher";
-*/
+
 
 // Math operators
 const now = 2037;
@@ -87,3 +87,4 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
+*/

@@ -18,12 +18,16 @@ console.log(country);
 console.log(language);
 // Lecture: let, const and var ;
 language = "Russian";
-// */
 
 console.log(population / 2);
 population++
 console.log(population);
 console.log(population > 6);
 console.log(population > 33);
+
 const description = country + " " + "is in Europe, and its " + population + " millions people speak " + language;
 console.log(description);
+
+const newDescription = `${country} is in Europe, and its ${population} millions people speak ${language}`;
+console.log(newDescription);
+// */

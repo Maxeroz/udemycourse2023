@@ -192,3 +192,25 @@ if (favourite === 23) { //23 === 23
 
 if (favourite !== 23) console.log("Why not 23?");
 */
+
+const hadDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hadDriversLicense && hasGoodVision);
+console.log(hadDriversLicense || hasGoodVision);
+console.log(!hadDriversLicense);
+
+// if (hadDriversLicense && hasGoodVision) {
+//     console.log("Sarah is able to drive!");
+// } else {
+//     console.log("Someone else should drive...");
+// }
+
+const isTired = false; // C
+console.log(hadDriversLicense && hasGoodVision && isTired);
+
+if (hadDriversLicense && hasGoodVision && !isTired) {
+    console.log("Sarah is able to drive!");
+} else {
+    console.log("Someone else should drive...");
+}

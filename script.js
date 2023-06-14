@@ -213,17 +213,57 @@ if (hadDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log("Someone else should drive...");
 }
-*/
 
-const scoreDolphins = (100 + 112 + 101) / 3;
-const scoreKoalas = (115 + 95 + 106) / 3;
+const scoreDolphins = (97 + 112 + 80) / 3;
+const scoreKoalas = (109 + 95 + 50) / 3;
 
 if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-    console.log("Dolphins win the trophy");
+    console.log("Dolphins win the trophy 🏆");
 } else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
-    console.log("Koalas win the trophy")
-} else if (scoreDolphins && scoreKoalas >= 100 && scoreDolphins === scoreDolphins) {
-    console.log("Both win the trophy")
+    console.log("Koalas win the trophy 🏆")
+} else if (scoreDolphins >= 100 && scoreKoalas >= 100 && scoreDolphins === scoreDolphins) {
+    console.log("Both win the trophy!")
 } else {
-    console.log("No team wins trophy")
+    console.log("No team wins trophy 😭")
 }
+*/
+
+const day = "thursday";
+
+switch (day) {
+    case "monday": // day === "monday"
+        console.log("Plan course sctructure");
+        console.log("Do to coding meetup");
+        break;
+    case "tuesday":
+        console.log("Prepare theory videos");
+        break;
+    case "wednesday":
+    case "thursday":
+        console.log("Write code examples");
+        break;
+    case "friday":
+        console.log("Record videos");
+        break;
+    case "sunday":
+    case "saturday":
+        console.log("Enjoy the weekend :D");
+        break;
+    default:
+        console.log("Not a valid day!");
+}
+
+// if (day === "monday") {
+//     console.log("Plan course sctructure");
+//     console.log("Do to coding meetup");
+// } else if (day === "tuesday") {
+//     console.log("Prepare theory videos");
+// } else if (day === "wednesday" || day === "thursday") {
+//     console.log("Write code examples");
+// } else if (day === "friday") {
+//     console.log("Record videos");
+// } else if (day === "sunday" || day === "saturday") {
+//     console.log("Enjoy the weekend :D");
+// } else {
+//     console.log("Not a valid day!");
+// }

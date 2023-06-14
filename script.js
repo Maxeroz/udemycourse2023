@@ -215,13 +215,15 @@ if (hadDriversLicense && hasGoodVision && !isTired) {
 }
 */
 
-const scoreDolphins = (97 + 112 + 101) / 3;
-const scoreKoalas = (109 + 95 + 106) / 3;
+const scoreDolphins = (100 + 112 + 101) / 3;
+const scoreKoalas = (115 + 95 + 106) / 3;
 
-if (scoreDolphins > scoreKoalas) {
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
     console.log("Dolphins win the trophy");
-} else if (scoreKoalas > scoreDolphins) {
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
     console.log("Koalas win the trophy")
-} else {
+} else if (scoreDolphins && scoreKoalas >= 100 && scoreDolphins === scoreDolphins) {
     console.log("Both win the trophy")
+} else {
+    console.log("No team wins trophy")
 }

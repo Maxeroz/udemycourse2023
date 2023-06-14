@@ -191,7 +191,6 @@ if (favourite === 23) { //23 === 23
 }
 
 if (favourite !== 23) console.log("Why not 23?");
-*/
 
 const hadDriversLicense = true; // A
 const hasGoodVision = true; // B
@@ -214,3 +213,4 @@ if (hadDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log("Someone else should drive...");
 }
+*/

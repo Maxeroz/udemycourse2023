@@ -1,8 +1,8 @@
-/*
+// /*
 // Lecture: Values and Variables
-const country = "Portugal";
+const country = "Russia";
 const continent = "Europe";
-let population = 10;
+let population = 145;
 
 // console.log(country);
 // console.log(continent);
@@ -16,7 +16,7 @@ console.log(isIsland);
 console.log(population);
 console.log(country);
 // Lecture: let, const and var ;
-language = "Portuguese";
+language = "Russian";
 
 console.log(language);
 
@@ -78,4 +78,26 @@ if (language === "English" && population < 50 && !isIsland) {
     console.log("Portugal does not meet your criteria :(");
 }
 
-*/
+// */
+
+switch (language) {
+    case "Chinese":
+    case "Mandarian":
+        console.log("MOST number of native speakers!");
+        break;
+    case "Spanish":
+        console.log("2nd place in number of native speakers");
+        break;
+    case "English":
+        console.log("3rd place");
+        break;
+    case "Hindi":
+        console.log("Number 4");
+        break;
+    case "Arabic":
+        console.log("5th most spoken language");
+        break;
+    default:
+        console.log("Great language too :D")
+        break;
+}

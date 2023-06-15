@@ -73,12 +73,10 @@ if (population > 33) {
 // }
 
 if (language === "English" && population < 50 && !isIsland) {
-    console.log("You should live in Portugal :)");
+    console.log(`You should live in ${country} :)`);
 } else {
-    console.log("Portugal does not meet your criteria :(");
+    console.log(`${country} does not meet your criteria :(`);
 }
-
-// */
 
 switch (language) {
     case "Chinese":
@@ -101,3 +99,8 @@ switch (language) {
         console.log("Great language too :D")
         break;
 }
+// */
+
+// population > 33 ? console.log(`${country}'s population is above average`) : console.log(`${country}'s population is below average`);
+
+// console.log(`${country}'s population is ${population > 33 ? "above" : "below"} average`);
